@@ -13,11 +13,9 @@
 module Exercise4 (
     input [1:0] sel,
     input cs,
-
     input [7:0] alpha,
     input [7:0] beta,
     input [7:0] gamma,
-
     output logic [7:0] out
 );
 
