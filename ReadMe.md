@@ -1,3 +1,4 @@
 # Week 2 Lab: System Verilog
 
-Fill out this readme as required by lab guidance
+
+The reason for using different testing sample in the testing cpp file is to ensure that all the cases(at least the one user will probably entered) will be covered, and because the exercise have different usage, so different testing sample can ensure that specific program being testes correctly. This allowed the program to be fully efficient and reduce the possibilty that encounter bugs in the future. Some disadvantages might be that it is very timely to create a specific testing program for every exercise, and even though the testing cycle (100) are huge, but some cases may not be cover in the test program. 

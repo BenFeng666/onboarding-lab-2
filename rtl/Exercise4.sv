@@ -18,5 +18,24 @@ module Exercise4 (
     input [7:0] gamma,
     output logic [7:0] out
 );
+always_comb
+begin
+  if (cs==0)
+  begin
+    out=8'b0;
+  end
+  else
+  begin
 
+  case (sel)
+  2'b00: out=alpha;
+  2'b01: out=beta;
+  2'b10: out=gamma;
+  2'b11: out=8'b0;
+  endcase
+  end
+end
+  
+
+   
 endmodule
